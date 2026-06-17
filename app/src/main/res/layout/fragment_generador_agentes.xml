@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@color/valorant_dark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="240dp"
+        android:layout_height="300dp"
+        android:padding="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardBackgroundColor="@color/valorant_card">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgGeneratorAgent"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/fondo"/>
+
+            <TextView
+                android:id="@+id/tvGeneratorAgentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sin nombre"
+                android:textColor="@color/valorant_gray"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/tvGeneratorAgentNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#00"
+                android:textColor="@color/valorant_gray"
+                android:textSize="18sp"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvGeneratorAgentRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROL"
+                android:textColor="@color/valorant_gray"
+                android:layout_marginTop="6dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/btnGenerateAgent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generar agente"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/valorant_red"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

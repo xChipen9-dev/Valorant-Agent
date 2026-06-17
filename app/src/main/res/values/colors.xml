@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="valo_bg_dark">#0F1923</color>
+    <color name="valo_card_dark">#1A2733</color>
+    <color name="valo_red">#FF4655</color>
+    <color name="valo_text">#ECE8E1</color>
+    <color name="valo_text_muted">#A09D94</color>
+    <color name="purple_500">#6750A4</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="valorant_red">#FF4655</color>
+    <color name="valorant_dark">#0F1923</color>
+    <color name="valorant_blue">#1C7CD6</color>
+    <color name="valorant_gray">#ECE8E1</color>
+    <color name="valorant_card">#16202A</color>
+
+
+
+</resources>

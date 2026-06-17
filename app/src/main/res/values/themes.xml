@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ValorantAgent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/valorant_red</item>
+        <item name="colorPrimaryVariant">@color/valorant_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:colorBackground">@color/valorant_dark</item>
+
+        <item name="toolbarStyle">@style/ValorantToolbar</item>
+
+        <item name="materialButtonStyle">@style/ValorantButton</item>
+
+        <item name="materialCardViewStyle">@style/ValorantCard</item>
+
+        <item name="android:textColor">@color/valorant_gray</item>
+
+    </style>
+
+    <style name="ValorantToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/valorant_red</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+    </style>
+
+    <style name="ValorantButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/valorant_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="ValorantCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/valorant_card</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+</resources>

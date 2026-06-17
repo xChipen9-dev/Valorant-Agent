@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentEquipo">
+
+    <fragment
+        android:id="@+id/fragmentEquipo"
+        android:name="com.example.valorantagent.utilidades.FragmentEquipo"
+        android:label="Tu equipo"
+        tools:layout="@layout/fragment_equipo" />
+
+    <fragment
+        android:id="@+id/fragmentAgentes"
+        android:name="com.example.valorantagent.utilidades.FragmentAgentes"
+        android:label="Agentes"
+        tools:layout="@layout/fragment_agentes" />
+
+    <fragment
+        android:id="@+id/fragmentGeneradorAgentes"
+        android:name="com.example.valorantagent.utilidades.FragmentGeneradorAgentes"
+        android:label="Generador"
+        tools:layout="@layout/fragment_generador_agentes" />
+
+    <fragment
+        android:id="@+id/fragmentDetalleAgentes"
+        android:name="com.example.valorantagent.utilidades.FragmentDetalleAgentes"
+        android:label="Detalles"
+        tools:layout="@layout/fragment_detalle_agente" />
+</navigation>

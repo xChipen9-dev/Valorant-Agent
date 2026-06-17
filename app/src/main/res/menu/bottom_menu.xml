@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentEquipo"
+        android:title="Tu equipo"
+        android:icon="@drawable/equipo" />
+
+    <item
+        android:id="@+id/fragmentAgentes"
+        android:title="Agentes"
+        android:icon="@drawable/agentes" />
+
+    <item
+        android:id="@+id/fragmentGeneradorAgentes"
+        android:title="Generador"
+        android:icon="@drawable/generador" />
+
+</menu>
